@@ -126,3 +126,41 @@ body {
     max-width: 25rem;
   }
 }
+
+@media (max-width: 460px) {
+  .image {
+    max-width: 18rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 0.8rem;
+  }
+  .image {
+    max-width: 17rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 0.8rem;
+  }
+  .button-horizon {
+    width: 0.125rem;
+    height: 0.7rem;
+  }
+  .button-vertical {
+    width: 0.125rem;
+    height: 0.7rem;
+  }
+  .image {
+    max-width: 15rem;
+  }
+}
